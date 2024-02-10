@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/56ca28743c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo.png" alt="logo" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Front End Developer</p>
+                <h1>Hi, I'm <span>Nikita Jha</span> <br>From Ratlam(M.P)</h1>
+            </div>
+        </div>
+    </div>
+    <!-- about -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <!-- <div class="about-col-1">
+                    <img src="WhatsApp Image 2024-02-08 at 22.43.56-Photoroom.png-Photoroom.png" alt="">
+                </div> -->
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>An Ambitious, self-motivated and creative
+                        thinker, who is passionate about her work
+                        leading to best of overall development. To
+                        succeed in an environment of growth,
+                        excellence and earn a job where I may utilize
+                        my skills as an asset.</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <!-- skills -->
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Programming Languages:</span><br> Python, HTML, CSS, Javascript.</li>
+                                <li><span>Front-End Framework/Library:</span><br>Bootstrap, React.js</li>
+                                <li><span>Database:</span><br>MySQL</li>
+                                <li><span>Mathematics:</span><br>Probability, Statistics, Linear Algebra</li>
+                                <li><span>Behavioral skill:</span><br>Patience, Teamwork, Time Management</li>
+                            </ul>
+                        </div>
+                        <!-- Experience -->
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>June 2023 - July 2023</span><br>Bharat Intern - Web Developer Intern</li>
+                                <li><span>July 2023 - August 2023</span><br>InternPe - Web Developer Intern</li>
+                            </ul>
+                        </div>
+                        <!-- Education -->
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2024</span><br>Madhav Institute of Technology <br>Bachelor of Technology, Internet of Things (Information Technology) <br>● Aggregate Percentage- 75</li>
+                                <li><span>2020</span><br>Sai Shree International Academy <br>Senior Secondary XII<br>● Percentage- 75</li>
+                                <li><span>2018</span><br>Sai Shree International Academy <br>Secondary X<br>● Percentage- 79</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- My work -->
+    <div id="portfolio">
+        <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+
+                <div>
+                    <h2>ECommerce Website</h2>
+                    <p>Developed a responsive eCommerce website from scratch using HTML, CSS, and
+                        JavaScript. This comprehensive project includes features for browsing products, adding them to a cart,
+                        and a checkout system.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+                <div>
+                    <h2>Temperature converter Website</h2>
+                    <p>This application allows users to convert temperatures between Celsius, Fahrenheit, and
+                        Kelvin seamlessly.-  HTML, CSS, JavaScript</p>
+                        <a href="https://github.com/nikitajha1011/TempratureConverter"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+                <div>
+                    <h2>Spotify <br>Clone <br>Website</h2>
+                    <p>Implemented user authentication, search and browse functionality, playback controls, playlist management, and responsive design - HTML, CSS, JavaScript</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+                <div>
+                    <h2>Netflix Homepage</h2>
+                    <p>Successfully replicated the Netflix homepage layout, including its header, navigation, featured content sections, and footer, demonstrating attention to detail and accuracy in implementation. - HTML, CSS, JavaScript</p>
+                    <a href="https://github.com/nikitajha1011/NetfllixHomepage"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+<!-- see more -->
+    <a href="#" class="btn">See More</a>
+
+    <!-- contact -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>nikitajha238@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>8770001659</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/nickeey_?igsh=ZzhreTYzZDE1em1m"><i class="fab fa-instagram"></i></i></a>
+                        <a href="https://www.linkedin.com/in/nikita-jha-596010220?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fab fa-linkedin"></i></i></a>
+                    </div>
+
+                    <!-- download cv -->
+                    <a href="Nikita cv.pdf" class="btn btn2">Download CV</a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu")
+
+        function openmenu(){
+            sidemenu.style.right = "0"
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px"
+        }
+    </script>
+</body>
+</html>
