@@ -228,9 +228,6 @@ nav .fas{
 }
 /* for small screen */
 @media only screen and (max-width: 600px){
-    #header{
-        background-image: url(phone\ bg.png);
-    }
     .header-text{
         margin-top: 100%;
         font-size: 16px;
